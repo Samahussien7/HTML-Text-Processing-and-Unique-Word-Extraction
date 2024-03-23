@@ -6,6 +6,7 @@ This Python script extracts text content from an HTML page, processes it, and ex
 The script fetches HTML content from any given URL, allowing flexibility to use URLs from sources like Wikipedia or any other web page containing relevant text data.
 Using Python libraries like requests and BeautifulSoup, the script extracts text from HTML elements such as paragraphs (<p>) or headings (<h1>, <h2>, etc.).
 
+
 #Processing Steps:
 
 Cleaning Data: Eliminates any symbols or characters that are not relevant to the text content.
@@ -15,4 +16,3 @@ Lemmatization or Stemming: Reduces words to their base or root form to standardi
 Stop Words Removal: Filters out common words such as "is," "and," "the," etc., which do not add significant meaning to the text.
 Unique Word Extraction:
 After processing, the script outputs all unique words present in the text data. This ensures that only distinct words are considered for analysis, providing valuable insights into the vocabulary used in the text.
-

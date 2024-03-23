@@ -4,8 +4,7 @@ This Python script extracts text content from an HTML page, processes it, and ex
 #Data Extraction:
 
 The script fetches HTML content from any given URL, allowing flexibility to use URLs from sources like Wikipedia or any other web page containing relevant text data.
-Using Python libraries like requests and BeautifulSoup, the script extracts text from HTML elements such as paragraphs (<p>) or headings (<h1>, <h2>, etc.).
-
+Using Python libraries like requests and BeautifulSoup, the script extracts text from HTML elements such as paragraphs or headings etc.
 
 #Processing Steps:
 
